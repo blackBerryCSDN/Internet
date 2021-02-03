@@ -1,0 +1,73 @@
+//  一、 内容布局
+//  二、 头部搜索样式
+
+
+/*
+ 一、 内容布局
+*/
+
+// 1、带有header 和 footer
+.layout-body-all {
+  width: 100%;
+  position: absolute;
+  top: 90px;
+  height: calc(100vh - 186px);
+  background: #FAFAFA;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+// 2、 内容布局,带有header
+.layout-body-top {
+  width: 100%;
+  position: absolute;
+  top: 90px;
+  height: calc(100vh - 90px);
+  background: #FAFAFA;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+//  3、 内容布局,带有header
+.layout-body-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: calc(100vh - 96px);
+  background: #FAFAFA;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/*
+ 二、 头部搜索样式
+*/
+
+
+.search-top_com {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #65B0FC, #64D0F7);
+  height: 50px;
+  position: relative;
+
+  .search-btn {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .search-btn:active {
+    color: #ccc;
+  }
+
+  .search-box {
+    font-size: 40px;
+    padding: 5px 0px;
+    text-align: center;
+  }
+
+  .col-padding {
+    padding: 0px 5px;
+  }
+
+
+}
